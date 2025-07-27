@@ -14,7 +14,8 @@ body {
 .background-header {
   background-image: url("banner 2.jpg");
   background-color: #fafbfc;
-  height: 425px;
+  /* background-color: #6c757d; */
+  height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,4 +51,42 @@ p.lead {
   background-color: #038c6a;
   color: black;
   text-shadow: 0px 0px;
+}
+
+.service-style {
+  margin-top: 15px;
+  background-color: #6c757d;
+}
+
+.text-wheat {
+  color: wheat;
+}
+
+.bg-yellow {
+  background-color: #ffc107;
+}
+
+.bg-yellow:hover {
+  background-color: red;
+  color: black !important;
+  text-shadow: 0px 0px;
+}
+
+h2:before,
+h2:after {
+  background-color: wheat;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
