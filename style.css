@@ -23,6 +23,14 @@ body {
   text-shadow: black 1px 1px;
 }
 
+.bg-2 {
+  background-image: url("banner 2.jpg");
+}
+
+.bg-3 {
+  background-image: url("banner 3.jpg");
+}
+
 h1.display-3 {
   color: aliceblue;
 }
@@ -82,11 +90,25 @@ h2:after {
   vertical-align: middle;
   width: 50%;
 }
+
 h2:before {
   right: 0.5em;
   margin-left: -50%;
 }
+
 h2:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.button-sekunder {
+  background-color: transparent;
+  border-color: #dbdbdb;
+  color: wheat;
+}
+
+.button-sekunder:hover {
+  background-color: wheat;
+  border-color: #dbdbdb;
+  color: #fff;
 }
