@@ -112,3 +112,19 @@ h2:after {
   border-color: #dbdbdb;
   color: #fff;
 }
+
+.cover {
+  background: no-repeat center/cover;
+  width: 559px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
